@@ -16,7 +16,10 @@
         <br />all about
         <span class="red">imput type?</span>
       </h1>
-      <h2 class="icon-arrow-down-circle"></h2>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
 
 
       <h3>...so you´re in <br />a big problem!!!!</h3>
@@ -28,7 +31,10 @@
 
       <h1>But keep<span class="red"><br /> calm </span></h1>
 
-      <h2 class="icon-arrow-down-circle"></h2>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
+      <h4 class="icon-chevrons-down"></h4>
 
       <h3>"Let's go by parts", <br />said Jack</h3>
 
@@ -62,13 +68,17 @@
     <tr>
       <td class="bold">text</td>
       <td>It is used when you want the user to enter a set of characters within an Input.</td>
-      <td><form action="/action_page.php">
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname"><br><br>
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname"><br><br>
-        <input type="submit" value="Submit">
-      </form>
+      <td>
+        <div class="container">
+          <form action="/action_page.php">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+    
+        </div>
       </td>
     </tr>
 
@@ -76,12 +86,15 @@
     <tr>
       <td class="bold">button</td>
       <td>Brings us a button</td>
-      <td><input type="button" value="=Ok" /></td>
+      <td>
+        <form action="">
+          <input type="button" value="Ok" /></td>
+        </form>
     </tr>
 
     <!-- ROW 1 -->
     <tr>
-      <td class="bold">image</td>
+      <td class="bold">submit</td>
       <td>Needs completing.</td>
       <td>
         <form action="">
@@ -92,7 +105,7 @@
 
     <!-- ROW 1B -->
     <tr>
-      <td class="bold">submit</td>
+      <td class="bold">image</td>
       <td>Needs completing.</td>
       <td>
         <form action="">
@@ -111,21 +124,17 @@
           <td>
             <form action="">
               <p>Do you have health insurance?</p>
-              <div>
+              <div class="flex_center">
                 <input
                 type="checkbox"
-                id="yes"
                 name="yes"
                 value="Yes"
               />
               <label> I have health insurance </label>
               </div>
-
-              <br />
-              <div>
+              <div class="flex_center">
                 <input
                 type="checkbox"
-                id="no"
                 name="no"
                 value="No"
               />
@@ -142,7 +151,7 @@
       <td>To enter a date.</td>
       <td>
         <form action="">
-          <label>When do you start your three-month holidays on a beautiful Caribbean beach?</label>
+          <label>When do you start your three-month holidays on a Caribbean beach?</label>
           <input type="date" id="holidays" name="holidays" />
         </form>
       </td>
@@ -155,7 +164,6 @@
       <td>
         <form action="">
           <label>Needs completing</label>
-          
         </form>
       </td>
     </tr>
@@ -186,39 +194,43 @@
         </tr>
 
     <!-- ROW 6 -->
-        <tr>
-          <td class="bold">file</td>
-          <td>Permite al usuario seleccionar un archivo.</td>
-          <td>
-            <form action="">
-              <label>Selecciona un archivo:</label>
-              <input type="file" id="myfile" name="myfile" />
-            </form>
-          </td>
-        </tr>
+    <tr>
+      <td class="bold">password</td>
+      <td>
+        Control de linea cuyo valor permanece oculto. Se puede utilizar el
+        atributo <strong>maxlength</strong> para especificar la longitud
+        maxima del valor a introducir.
+      </td>
+      <td>
+        <form action="">
+          <label>Usuario: </label>
+          <input type="text" id="usuario" name="usuario" /><br />
+          <label>Password:</label>
+          <input
+            type="password"
+            id="pwd"
+            name="pwd"
+            maxlength="10"
+          />
+        </form>
+      </td>
+    </tr>
 
     <!-- ROW 7 -->
-        <tr>
-          <td class="bold">password</td>
-          <td>
-            Control de linea cuyo valor permanece oculto. Se puede utilizar el
-            atributo <strong>maxlength</strong> para especificar la longitud
-            maxima del valor a introducir.
-          </td>
-          <td>
-            <form action="">
-              <label>Usuario: </label><br />
-              <input type="text" id="usuario" name="usuario" /><br />
-              <label>Password:</label><br />
-              <input
-                type="password"
-                id="pwd"
-                name="pwd"
-                maxlength="10"
-              /><br /><br />
-            </form>
-          </td>
-        </tr>
+    <tr>
+      <td class="bold">file</td>
+      <td>Permite al usuario seleccionar un archivo.</td>
+      <td>
+        <form action="">
+          <label>Selecciona un archivo:</label>
+          <div id="btn_send_file">
+            <p class="txt_btn"> Buscar archivo </p>
+            <input id="btn_send" type="file" name="myfile" />
+
+          </div>
+        </form>
+      </td>
+    </tr>
 
     <!-- ROW 8 -->
         <tr>
