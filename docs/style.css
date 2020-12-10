@@ -78,7 +78,8 @@ container.{
 td{
     background-color: hsla(180, 8%, 44%, 0.4);
     margin: 10px;
-    padding-inline: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
     padding-bottom: 35px;
     border-radius: 10px;
     font-size: 16px;
