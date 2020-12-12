@@ -1,10 +1,14 @@
 UNIVERSIDAD TECNOLÓGICA NACIONAL
 Diplomatura en programación web full stack con React JS
 
-TP2 / Enunciado
+TP2 / ENUNCIADO
 Investigar en w3school acerca de los diferentes inputs que se pueden utilizar en un formulario y armar un cuadro conteniendo el tipo, ejemplo de uso y descripción.
 
-CREDITOS
+EXTRACTO O CONCLUSIÓN DE ESTA EXPERIENCIA
+Mi primera vez haciendo GitPages. IMPRESIONANTE!!!!!
+Después de mucho tiempo de estar adentrandome en Flutter (mi pasión) y React-Native (mi necesidad) la verdad que vino bien un repaso por estas etiquetas HTML y ver sus atributos. Aunque mi pasión es MOBILE, reconozco que me encanta codear. Sabía pero lo reforcé, tengo que profundizar en gitHub.
+
+PROCESO
 Para hacer este práctico realicé lo siguientes pasos:
 1 - Consulté los links dados por los profes
 
