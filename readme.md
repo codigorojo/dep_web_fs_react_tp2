@@ -6,7 +6,7 @@ Investigar en w3school acerca de los diferentes inputs que se pueden utilizar en
 
 RESULTADO
 Esta subido aca:
-https://codigorojo.github.io/dep_web_fs_react_tp2/
+https://ferpm-dev.github.io/dep_web_fs_react_tp2/
 
 EXTRACTO O CONCLUSIÓN DE ESTA EXPERIENCIA
 Mi primera vez haciendo GitPages. IMPRESIONANTE!!!!!
